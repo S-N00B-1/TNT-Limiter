@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tntlimiter",
+  "version": "${version}",
+  "name": "TNT-Limiter",
+  "description": "Mod that limits the amount of TNT ignitions in an area",
+  "authors": ["S-N00B-1", "Wilyicaro"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.sn00b1.tntLimiter.TntLimiter"
+    ],
+    "modmenu": [
+      "io.github.sn00b1.tntLimiter.client.TntLimiterModMenu"
+    ]
+  },
+  "mixins": [
+    "tnt-limiter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": ">=${yacl_version}"
+  },
+  "suggests": {
+    "modmenu": ">=${mod_menu_version}"
+  }
+}

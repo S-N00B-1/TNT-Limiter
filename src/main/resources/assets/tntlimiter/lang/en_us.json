@@ -1,0 +1,6 @@
+{
+  "tntlimiter.config.title": "TNT Limiter",
+  "tntlimiter.config.category": "Options",
+  "tntlimiter.config.detectRadius": "Detection Radius",
+  "tntlimiter.config.tntLimit": "Tnt Limit"
+}
